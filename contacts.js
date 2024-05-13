@@ -21,7 +21,7 @@ const getContactById = async (contactId) => {
         return result || null;
     }
     catch (error) {
-        console.error("Error reading contacts by id: error.message");
+        console.error("Error reading contacts by id:" error.message);
     }
 };
 
